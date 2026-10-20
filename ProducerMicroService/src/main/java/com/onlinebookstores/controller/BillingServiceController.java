@@ -15,7 +15,7 @@ public class BillingServiceController {
 	@GetMapping("/info")
 	public String getBillingInfo()
 	{
-		return"we accept Card Payment,Upi Payment,NetBanking Payment,COD-->port::"+port+"----"+instanceId;
+		return "Hello world";
 	}
 	
 
